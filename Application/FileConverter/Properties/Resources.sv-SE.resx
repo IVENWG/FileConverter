@@ -106,12 +106,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>Öppna dokumentation</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>Donera</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>Glöm inte att belöna mitt arbete om du gillar det :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>Uppdateringen laddas ner i bakgrunden och installeras när du stänger LessMB Converter.</value>
   </data>

@@ -164,12 +164,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>Otevřít dokumentaci</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>Přispět</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>Nezapomeňte mou práci odměnit, pokud se vám líbí :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>Aktualizace se stáhne na pozadí a nainstaluje se po ukončení aplikace LessMB Converter.</value>
   </data>

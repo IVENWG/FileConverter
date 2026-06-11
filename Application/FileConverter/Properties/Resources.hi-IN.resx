@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>खुला दस्तावेज़</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>दान</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>अगर आपको मेरा काम पसंद आया तो इनाम देना न भूलें :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>अपडेट को बैकग्राउंड में डाउनलोड किया जाएगा, और फाइल कन्वर्टर से बाहर निकलने के बाद इंस्टॉल किया जाएगा।</value>
   </data>

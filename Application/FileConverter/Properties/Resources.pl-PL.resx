@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>Otwórz dokumentację</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>Wesprzyj</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>Nie zapomnij wynagrodzić mojej pracy, jeśli Ci się podoba :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>Aktualizacja zostanie pobrana w tle i zainstalowana po zamknięciu LessMB Converter.</value>
   </data>

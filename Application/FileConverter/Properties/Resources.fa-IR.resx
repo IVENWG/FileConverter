@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>فایل کردن سند</value>
  </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>حمایت مالی</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>اگر از برنامه رضایت داشتید حمایت مالی فراموش نشود </value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>دانلود آپدیت و نصب آن پس از خروج از برنامه</value>
   </data>

@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>Buka dokumentasi</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>Donasi</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>Jangan lupa untuk menghargai karya saya jika Anda menyukainya :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>Pembaruan akan diunduh di latar belakang, dan dipasang setelah Anda keluar dari LessMB Converter</value>
   </data>

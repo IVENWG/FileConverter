@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>Отвори документацију</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>Донирај</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>Не заборави да наградиш мој рад ако ти се свиђа :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>Ажурирање ће бити преузето у позадини и инсталирано када напустите LessMB Converter.</value>
   </data>

@@ -181,14 +181,6 @@
     <value>فتح الوثائق</value>
     <comment>Open documentation</comment>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>تبرع</value>
-    <comment>Donate</comment>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>لا تنسي مكافأة عملي لو أعجبك</value>
-    <comment>Don't forget to reward my work if you like it :)</comment>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>التحديث سوف يقوم بالتنزيل في الخلفية و سوف يتم تثبيت التحديث عند غلق البرنامج</value>
     <comment>The update will be downloaded in background, and installed once you exit LessMB Converter.</comment>

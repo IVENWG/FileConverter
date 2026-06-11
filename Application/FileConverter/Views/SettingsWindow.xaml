@@ -423,7 +423,6 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="50"/>
                         <RowDefinition Height="*"/>
-                        <RowDefinition Height="45"/>
                         <RowDefinition Height="30"/>
                     </Grid.RowDefinitions>
 
@@ -439,55 +438,17 @@
                         <FlowDocumentScrollViewer Margin="5,10,5,10" HorizontalAlignment="Stretch" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" DockPanel.Dock="Top"
                                                   Document="{Binding UpgradeVersionDescription.ChangeLog, Source={StaticResource Upgrade}, Converter={StaticResource ChangelogToMarkdown}, ConverterParameter=True|}" />
 
-                        <TextBlock Margin="5" DockPanel.Dock="Top" FontSize="14" HorizontalAlignment="Center" 
+                        <TextBlock Margin="5" DockPanel.Dock="Top" FontSize="14" HorizontalAlignment="Center"
                                    Visibility="{Binding DisplaySeeChangeLogLink, Mode=OneWay, Converter={StaticResource BoolToVisibility}}">
                             <Hyperlink Command="{Binding GetChangeLogContentCommand, Mode=OneWay}"><x:Static Member="project:Resources.SeeChangeLog" /></Hyperlink>
                         </TextBlock>
                     </DockPanel>
 
-                    <Image Grid.Row="1" Grid.Column="1" Margin="20,20,20,20" VerticalAlignment="Top" 
+                    <Image Grid.Row="1" Grid.Column="1" Margin="20,20,20,20" VerticalAlignment="Top"
                            Source="{Binding Source=/FileConverter;component/Resources/ApplicationIcon.ico, Converter={StaticResource IcoFileSizeSelector}, ConverterParameter=256}">
                     </Image>
 
-                    <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
-                        <Label Content="{x:Static project:Resources.DonateDescription}" VerticalAlignment="Center" FontStyle="Italic"/>
-                        <controls:IconButton Margin="5,0,5,0" Background="#0467B4" Foreground="White" MouseOverBrush="#007AD8" PressedBrush="#0F4199"
-                                      Command="{Binding OpenUrlCommand, Mode=OneWay}" CommandParameter="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=3BDWQTYTTA3D8&amp;item_name=File+Converter+Donations&amp;currency_code=EUR"
-                                      IconSource="/FileConverter;component/Resources/PaypalIcon.png" Content="{x:Static project:Resources.DonateButtonTitle}" FontWeight="Bold" FontSize="14" />
-                    </StackPanel>
-
-                    <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0">
-                        <Button ToolTip="{x:Static project:Resources.GitHubButtonDescription}" Padding="1" Margin="5,0,5,0" 
-                                Command="{Binding OpenUrlCommand, Mode=OneWay}" CommandParameter="https://github.com/IVENWG/FileConverter/?from=about"
-                                Style="{DynamicResource TileButton}">
-                            <Button.Content>
-                                <Image Source="/FileConverter;component/Resources/GitHub-Icon.png"></Image>
-                            </Button.Content>
-                        </Button>
-                        <Button ToolTip="{x:Static project:Resources.IssueButtonDescription}" Padding="1" Margin="5,0,5,0" 
-                                Command="{Binding OpenUrlCommand, Mode=OneWay}" CommandParameter="https://github.com/IVENWG/FileConverter/issues?from=about"
-                                Style="{DynamicResource TileButton}">
-                            <Button.Content>
-                                <Image Source="/FileConverter;component/Resources/GitHub-Issue-Icon.png"></Image>
-                            </Button.Content>
-                        </Button>
-                        <Button ToolTip="{x:Static project:Resources.DocumentationButtonDescription}" Padding="1" Margin="5,0,5,0" 
-                                Command="{Binding OpenUrlCommand, Mode=OneWay}" CommandParameter="https://github.com/IVENWG/FileConverter/wiki?from=about"
-                                Style="{DynamicResource TileButton}">
-                            <Button.Content>
-                                <Image Source="/FileConverter;component/Resources/GitHub-Documentation-Icon.png"></Image>
-                            </Button.Content>
-                        </Button>
-                        <Button ToolTip="{x:Static project:Resources.WebsiteButtonDescription}" Padding="1" Margin="5,0,5,0" 
-                                Command="{Binding OpenUrlCommand, Mode=OneWay}" CommandParameter="https://github.com/IVENWG/FileConverter?from=about"
-                                Style="{DynamicResource TileButton}">
-                            <Button.Content>
-                                <Image Source="/FileConverter;component/Resources/WebSite-Icon.png"></Image>
-                            </Button.Content>
-                        </Button>
-                    </StackPanel>
-
-                    <Label Grid.Row="3" Grid.Column="0" Content="Copyright @ 2026, LessMB. All right reserved." Foreground="{DynamicResource LighterForegroundBrush}" Margin="0,2,0,2"/>
+                    <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Content="Copyright © 2026 LessMB. All rights reserved." Foreground="{DynamicResource LighterForegroundBrush}" Margin="0,2,0,0" HorizontalAlignment="Center"/>
                 </Grid>
             </TabItem>
         </TabControl>

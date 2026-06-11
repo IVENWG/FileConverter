@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>打开文件</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>捐赠</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>如果你喜欢，别忘了鼓励我的工作^_^</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>此更新将在后台下载，并在 LessMB Converter 退出后立即开始安装。</value>
   </data>
@@ -497,16 +491,16 @@
     <value>立体声</value>
   </data>
   <data name="LicenceHeader1" xml:space="preserve">
-    <value>**该软件免费**.</value>
+    <value>**该软件免费**。</value>
   </data>
   <data name="LicenceHeader2" xml:space="preserve">
-    <value>您可以根据GNU通用公共许可证的条款重新发布和（或）修改它。</value>
+    <value>您可以根据 MIT 许可证的条款重新发布和（或）修改它。</value>
   </data>
   <data name="LicenceHeader3" xml:space="preserve">
-    <value>本程序的发布是希望它有用，但不提供任何担保。有关更多详细信息，请参阅GNU通用公共许可证（可在安装文件夹中找到：License.md）。</value>
+    <value>本程序的发布是希望它有用，但不提供任何担保。有关更多详细信息，请参阅 MIT 许可证。</value>
   </data>
   <data name="ApplicationIsTerminating" xml:space="preserve">
-    <value>应用程序正在关闭。The application is terminating.</value>
+    <value>应用程序正在关闭。</value>
   </data>
   <data name="ApplicationWillTerminateInMultipleSeconds" xml:space="preserve">
     <value>应用程序将在 {0} 秒后自动关闭。</value>
@@ -591,5 +585,29 @@
   </data>
   <data name="CopyFilesInClipboardAfterConversion" xml:space="preserve">
     <value>转换后将文件复制到剪贴板</value>
+  </data>
+  <data name="HardwareAccelerationMode" xml:space="preserve">
+    <value>硬件加速模式</value>
+  </data>
+  <data name="HardwareAccelerationModeOffName" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="HardwareAccelerationModeAMFName" xml:space="preserve">
+    <value>AMF (AMD)</value>
+  </data>
+  <data name="HardwareAccelerationModeCUDAName" xml:space="preserve">
+    <value>CUDA (NVIDIA)</value>
+  </data>
+  <data name="HardwareAccelerationModeD3D11Name" xml:space="preserve">
+    <value>Direct3D 11</value>
+  </data>
+  <data name="HardwareAccelerationModeDXVA2Name" xml:space="preserve">
+    <value>Direct3D 9/DXVA2</value>
+  </data>
+  <data name="HardwareAccelerationModeOpenCLName" xml:space="preserve">
+    <value>OpenCL</value>
+  </data>
+  <data name="HardwareAccelerationModeVulkanName" xml:space="preserve">
+    <value>Vulkan</value>
   </data>
 </root>

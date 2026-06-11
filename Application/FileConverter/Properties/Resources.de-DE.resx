@@ -178,14 +178,6 @@
         <value>Dokumentation öffnen</value>
         <comment/>
     </data>
-    <data name="DonateButtonTitle" xml:space="preserve">
-        <value>Spenden</value>
-        <comment/>
-    </data>
-    <data name="DonateDescription" xml:space="preserve">
-        <value>Vergessen Sie nicht meine Arbeit zu belohnen, wenn sie Ihnen gefällt :)</value>
-        <comment/>
-    </data>
     <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
         <value>Das Update wird im Hintergrund heruntergeladen und installiert sobald sie LessMB Converter schließen</value>
         <comment/>

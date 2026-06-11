@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>Açık Belgeler</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>Bağış yap</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>Eğer beğendiysen işimde bana yardımcı olmayı unutma :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>Güncelleme arkaplanda iniyor olacak, ve LessMB Converter'dan çıktığınızda kurulacak.</value>
   </data>

@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>פתח תיעוד</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>תרום</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>אל תשכח לתגמל אותי אם אתה אוהב את זה :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>העדכון ירד ברקע ויותקן כשתצא מהתוכנה.</value>
   </data>

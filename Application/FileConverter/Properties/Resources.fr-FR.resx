@@ -167,12 +167,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>Ouvrir la documentation</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>Faire un don</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>N'oubliez pas de récompenser mon travail si vous l'apréciez :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>La mise à jour sera téléchargée en tâche de fond et sera installée à la fermeture de LessMB Converter.</value>
     <comment>The update will be downloaded in background, and installed once you exit LessMB Converter.</comment>

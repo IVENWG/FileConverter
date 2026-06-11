@@ -181,14 +181,6 @@
     <value>Apri documentazione</value>
     <comment>Open documentation</comment>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>Dona</value>
-    <comment>Donate</comment>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>Non dimenticare di premiare il nostro lavoro se ti piace :)</value>
-    <comment>Don't forget to reward my work if you like it :)</comment>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>L'aggiornamento verrà scaricato in background e installato una volta uscito da LessMB Converter.</value>
     <comment>The update will be downloaded in background, and installed once you exit LessMB Converter.</comment>

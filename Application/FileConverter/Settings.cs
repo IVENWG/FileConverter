@@ -269,8 +269,8 @@ namespace FileConverter
                 }
                 else
                 {
-                    Diagnostics.Debug.Log($"Can't find supported culture info for culture {currentUICulture}. Fallback to default culture.");
-                    this.ApplicationLanguage = CultureInfo.GetCultureInfo("en");
+                    Diagnostics.Debug.Log($"Can't find supported culture info for culture {currentUICulture}. Fallback to Chinese.");
+                    this.ApplicationLanguage = CultureInfo.GetCultureInfo("zh-CN");
                 }
             }
         }

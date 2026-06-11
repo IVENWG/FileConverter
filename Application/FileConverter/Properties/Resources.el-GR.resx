@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>Άνοιγμα εγγράφων τεκμηρίωσης</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>Δωρεά</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>Μην ξεχάσεις να ανταμείψεις τη δουλειά μου αν σου αρέσει η εφαρμογή :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>Η ενημέρωση θα ληφθεί στο παρασκήνιο και θα εγκατασταθεί μόλις πραγματοποιήσετε έξοδο από τον Μετατροπέα αρχείων.</value>
   </data>

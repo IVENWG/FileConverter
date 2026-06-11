@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>ドキュメントを開く</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>寄付する</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>もし気に入ってもらえたら、僕の作品にご褒美をあげるのを忘れないでね :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>アップデートはバックグラウンドでダウンロードされ、ファイルコンバータを終了するとインストールされます。</value>
   </data>

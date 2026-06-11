@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>開啟文件</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>贊助</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>如果您喜歡這個軟體，別忘了給予一些支持 :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>更新將會在背景下載，並在您關閉 LessMB Converter 後安裝。</value>
   </data>

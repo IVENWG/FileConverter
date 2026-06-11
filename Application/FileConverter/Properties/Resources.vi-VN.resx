@@ -165,12 +165,6 @@
   <data name="DocumentationButtonDescription" xml:space="preserve">
     <value>Mở tài liệu</value>
   </data>
-  <data name="DonateButtonTitle" xml:space="preserve">
-    <value>Ủng hộ nhà phát triển</value>
-  </data>
-  <data name="DonateDescription" xml:space="preserve">
-    <value>Đừng quên ủng hộ công sức của tôi nếu bạn thích nó nhé! :)</value>
-  </data>
   <data name="DownloadAndInstallButtonDescription" xml:space="preserve">
     <value>Bản cập nhật sẽ được tải xuống ở chế độ nền và cài đặt sau khi bạn thoát LessMB Converter.</value>
   </data>
