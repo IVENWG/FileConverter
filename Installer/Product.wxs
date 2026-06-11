@@ -1,15 +1,15 @@
 ﻿<!-- Upgrade documentation: http://wixtoolset.org/documentation/manual/v3/howtos/updates/major_upgrade.html -->
 <Wix xmlns="http://wixtoolset.org/schemas/v4/wxs" xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
-    <Package Name="LessMB Converter" Language="1033" Version="2.2.0" Manufacturer="LessMB" UpgradeCode="e3ca717b-a897-418a-bbef-5c7e35c76e4b" InstallerVersion="500">
+    <Package Name="LessMB Converter" Language="1033" Codepage="65001" Version="2.2.0" Manufacturer="LessMB" UpgradeCode="e3ca717b-a897-418a-bbef-5c7e35c76e4b" InstallerVersion="500">
         <Icon Id="icon.ico" SourceFile="..\Resources\Icons\ApplicationIcon.ico" />
         <Property Id="ARPPRODUCTICON" Value="icon.ico" />
         <SetProperty Id="ARPINSTALLLOCATION" Value="[ApplicationFolder]" After="CostFinalize" />
       
-        <MajorUpgrade Schedule="afterInstallInitialize" DowngradeErrorMessage="A later version of [ProductName] is already installed. Setup will now exit." />
-        
+        <MajorUpgrade Schedule="afterInstallInitialize" DowngradeErrorMessage="已安装更新版本的 [ProductName]。安装程序将退出。" />
+
         <Media Id="1" Cabinet="CabFile.cab" EmbedCab="yes" />
 
-        <Feature Id="Application" Title="Installer" Level="1">
+        <Feature Id="Application" Title="安装程序" Level="1">
             <ComponentGroupRef Id="ProductComponents" />
             <ComponentGroupRef Id="Languages" />
         </Feature>
@@ -19,14 +19,14 @@
         <CustomAction Id="PostInstallInit" ExeCommand="--post-install-init" Execute="immediate" FileRef="FileConverter.exe" />
 
         <UI>
-            <ProgressText Action="InstallFiles" Template="File: [1],  Directory: [9],  Size: [6]" Message="Copying new files" />
-            <ProgressText Action="InstallShell" Message="Register shell extension to Windows Explorer" />
-            <ProgressText Action="UninstallShell" Message="Unregister shell extension from Windows Explorer" />
-            <ProgressText Action="PostInstallInit" Message="Initialize conversion presets" />
+            <ProgressText Action="InstallFiles" Template="File: [1],  Directory: [9],  Size: [6]" Message="正在复制文件" />
+            <ProgressText Action="InstallShell" Message="正在注册右键菜单扩展" />
+            <ProgressText Action="UninstallShell" Message="正在注销右键菜单扩展" />
+            <ProgressText Action="PostInstallInit" Message="正在初始化转换预设" />
         </UI>
 
         <PropertyRef Id="WIX_IS_NETFRAMEWORK_48_OR_LATER_INSTALLED" />
-        <Launch Condition="Installed OR WIX_IS_NETFRAMEWORK_48_OR_LATER_INSTALLED" Message="This application requires .NET Framework 4.8. Please install the .NET Framework then run this installer again." />
+        <Launch Condition="Installed OR WIX_IS_NETFRAMEWORK_48_OR_LATER_INSTALLED" Message="此应用需要 .NET Framework 4.8，请先安装 .NET Framework 后再运行安装程序。" />
 
         <InstallExecuteSequence>
             <Custom Action="UninstallShell" Before="RemoveRegistryValues" Condition="(NOT UPGRADINGPRODUCTCODE) AND (REMOVE~=&quot;ALL&quot;)" />
@@ -62,10 +62,10 @@
             <!-- Application -->
             <Component Guid="{EFA8CCE9-E501-4C80-AE33-710D11CC2525}">
                 <File Id="FileConverter.exe" Source="$(var.FileConverter.TargetPath)" KeyPath="yes" Checksum="yes">
-                    <Shortcut Id="ApplicationStartMenuShortcut" Directory="ApplicationStartMenuShortcut" Advertise="yes" WorkingDirectory="INSTALLFOLDER" Name="LessMB Converter" Description="Convert and compress everything in 2 clicks!" Icon="Icon.exe">
+                    <Shortcut Id="ApplicationStartMenuShortcut" Directory="ApplicationStartMenuShortcut" Advertise="yes" WorkingDirectory="INSTALLFOLDER" Name="LessMB Converter" Description="两步完成文件转换与压缩" Icon="Icon.exe">
                         <Icon Id="Icon.exe" SourceFile="$(var.FileConverter.TargetPath)" />
                     </Shortcut>
-                    <Shortcut Id="ApplicationSettingsStartMenuShortcut" Directory="ApplicationStartMenuShortcut" Advertise="yes" WorkingDirectory="INSTALLFOLDER" Name="LessMB Converter Settings" Description="Configure the conversion and compression presets" Arguments="--settings" Icon="SettingsIcon.exe">
+                    <Shortcut Id="ApplicationSettingsStartMenuShortcut" Directory="ApplicationStartMenuShortcut" Advertise="yes" WorkingDirectory="INSTALLFOLDER" Name="LessMB Converter 设置" Description="配置转换与压缩预设" Arguments="--settings" Icon="SettingsIcon.exe">
                         <Icon Id="SettingsIcon.exe" SourceFile="$(var.FileConverter.TargetPath)" />
                     </Shortcut>
                 </File>

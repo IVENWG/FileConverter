@@ -172,7 +172,7 @@ namespace FileConverterExtension
             {
                 ToolStripMenuItem subItem = new ToolStripMenuItem
                 {
-                    Text = "Configure presets...",
+                    Text = "配置预设...",
                     Image = new Icon(Properties.Resources.SettingsIcon, SystemInformation.SmallIconSize).ToBitmap(),
                 };
 
